@@ -1,26 +1,7 @@
-# Node.js + Express.js Authentication API Boilerplate
+# Express Authentication Starter Kit
 
-This is a project meant to be used as a starting point for APIs that require user authentication (registration and sign on). Sign on sessions are showcased with protected routes that pass through authentication middleware. API is designed to be consumed by a SPA.
+This is a project meant to be used as a starting point for APIs that require user authentication (registration and sign in). Sign on sessions are showcased with protected routes that pass through authentication middleware. API is designed to be consumed by a SPA.
 
-**This is a WIP**, if you find any issues or concerns with the security of the implementation, please, open a new issue or contact me directly [@yanglorenzana](https://twitter.com/yanglorenzana) on Twitter.
-
-> Read the [tutorial series](https://www.ylorenzana.rocks/nodejs-api-authentication-tutorial-pt-1/) for this project if you'd like a more detailed explanation and walkthrough.
-
-### WIP:
-
-- Password reset mechanism
-- Account lockout after too many unsuccessful login attempts
-- ~~Another security mechanism against CSRF~~ :heavy_check_mark:
-
-### TODO:
-
-- Request throttling
-
-Tried following [json:api](http://jsonapi.org/) specification for the design of the API for the error responses, but didn't get a good example for other response objects.
-
-Project uses [mongoose](http://mongoosejs.com/) for data modeling and [express.js](https://expressjs.com/) for easy server setup.
-
-The auth system uses 16 random bytes generated with the [node.js crypto module](https://nodejs.org/api/crypto.html#crypto_crypto_randombytes_size_callback) as authentication tokens.
 
 ## Project Setup
 
@@ -56,8 +37,8 @@ An example of login route response and placing the csrf-token in headers:
 
 ## License
 
-[MIT](https://github.com/ylorenzana/node-express-api-auth/blob/master/LICENSE)
+[MIT](https://github.com/freedevsoft/express-authentication-starter-kit/blob/master/LICENSE)
 
 ---
 
-Feedback and PR's welcome. Follow me [@yanglorenzana](https://twitter.com/yanglorenzana), DM's always open.
+Feedback and PR's welcome. Follow me [@freedevsoft](https://join.slack.com/t/web-guru-workspace/shared_invite/zt-u6q6lafa-KySGGBcqoVfkj2Nklt2lNQ), DM's always open.
